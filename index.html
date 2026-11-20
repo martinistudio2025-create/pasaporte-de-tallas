@@ -789,8 +789,8 @@
   const PORCENTAJE_GANANCIA = "5"; // ej: "5"
   const DEMO_URL = "demo/";
 
-  const precioTxt = PRECIO_USD_MES || "[Precio]";
-  const pctTxt = PORCENTAJE_GANANCIA || "[X]";
+  const precioTxt = PRECIO_USD_MES || "99";
+  const pctTxt = PORCENTAJE_GANANCIA || "5";
   document.querySelectorAll(".js-price").forEach(el => el.textContent = precioTxt);
   document.querySelectorAll(".js-pct").forEach(el => el.textContent = pctTxt);
   if (DEMO_URL) {
